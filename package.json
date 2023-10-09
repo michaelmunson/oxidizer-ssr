@@ -1,0 +1,14 @@
+{
+  "name": "oxidizer-ssr",
+  "version": "1.0.0",
+  "description": "A lightweight oxidizer based framework for server side rendering.",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Schilling Munson",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "typescript": "^5.2.2"
+  }
+}
