@@ -1,5 +1,5 @@
 # Oxidizer SSR
-An <a href="https://github.com/michaelmunson/oxidizer">Oxidizer</a> framework for implementing Server Side Rendering.
+An <a href="https://www.npmjs.com/package/oxidizer">Oxidizer</a> framework for implementing Server Side Rendering.
 
 ## Usage
 
@@ -7,7 +7,7 @@ An <a href="https://github.com/michaelmunson/oxidizer">Oxidizer</a> framework fo
 ```typescript
 import {DIV, BUTTON, A} from "oxidizer-ssr";
 
-function lambdaHandler (event, context) {
+function handler(event, context){
     
     const myComponent = (
         new DIV({className: "my-div"}, [
@@ -30,7 +30,7 @@ function lambdaHandler (event, context) {
 ``` typescript
 import {parseTree} from "oxidizer-ssr";
 
-const res = await ('<lambdaUrl>');
+const res = await fetch('...');
 
 const myComponent = parseTree(res);
 
