@@ -1,6 +1,6 @@
 {
   "name": "oxidizer-ssr",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "A lightweight oxidizer based framework for server side rendering.",
   "main": "index.ts",
   "scripts": {
